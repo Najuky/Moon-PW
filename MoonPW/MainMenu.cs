@@ -20,9 +20,18 @@ namespace MoonPW
             {
                 Console.Clear();
                 WriteLogo();
-                GeneratePassword.Gen();
-                Console.WriteLine("Web-Address: " + GeneratePassword.Web());
-                Console.WriteLine("Username: " + GeneratePassword.Username());
+                Console.WriteLine("Web Address: ");
+                string web = Console.ReadLine();
+                Console.Clear();
+                WriteLogo();
+                
+                Console.WriteLine("User: ");
+                string user = Console.ReadLine();
+                Console.Clear();
+                WriteLogo();
+                
+                Console.WriteLine("Web-Address: " + web);
+                Console.WriteLine("User: " + user);
                 Console.WriteLine("Password: " + GeneratePassword.Gen());
                 Console.ReadKey();
             }
