@@ -1,13 +1,13 @@
 ﻿using System;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace MoonPW
 {
     public class functions
     {
-        public static void Generate()
-        {
-            Console.WriteLine("Generating...");
-        }
 
         public static void List()
         {
